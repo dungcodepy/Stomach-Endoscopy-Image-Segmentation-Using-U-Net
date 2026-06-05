@@ -5,6 +5,7 @@
 Dự án này xây dựng mô hình học sâu U-Net nhằm tự động phân đoạn vùng polyp trong ảnh nội soi tiêu hóa sử dụng bộ dữ liệu Kvasir-SEG.
 
 Mô hình nhận ảnh nội soi đầu vào dưới dạng ảnh xám (grayscale) và dự đoán mặt nạ (mask) nhị phân thể hiện vị trí của polyp.
+( Polyp là một khối mô bất thường phát triển từ lớp niêm mạc bên trong các cơ quan rỗng của cơ thể.)
 
 Dự án được triển khai bằng TensorFlow/Keras và có thể huấn luyện trên Google Colab, Kaggle hoặc máy tính cá nhân có GPU.
 
